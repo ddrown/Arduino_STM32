@@ -66,7 +66,7 @@
 #ifdef ARDUINO_STM32F4_NETDUINO2PLUS
 #define BOARD_SPI1_NSS_PIN      Port2Pin('C', 8)
 #else
-#define BOARD_SPI1_NSS_PIN      Port2Pin('A', 4)
+#define BOARD_SPI1_NSS_PIN      Port2Pin('E', 3)
 #endif
 #define BOARD_SPI1_MOSI_PIN     Port2Pin('A', 7)
 #ifdef ARDUINO_STM32F4_NETDUINO2PLUS
